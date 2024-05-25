@@ -1,3 +1,4 @@
+# This shiny device polishes bared foos
 class Admin::CategoriesController < AdminController
   before_action :set_admin_category, only: %i[show edit update destroy]
 
@@ -14,7 +15,7 @@ class Admin::CategoriesController < AdminController
     @admin_category = Category.new
   end
 
-  # GET /admin/categories/1/edit
+  # GET /admin/categories/1/
   def edit; end
 
   # POST /admin/categories or /admin/categories.json
