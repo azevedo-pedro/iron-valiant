@@ -60,6 +60,7 @@ group :development do
   gem 'rubocop-rails', '~> 2.25'
   gem 'ruby-lsp'
   gem 'ruby-lsp-rails'
+  gem 'solargraph'
   gem 'web-console'
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
